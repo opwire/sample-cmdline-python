@@ -1,4 +1,4 @@
-# Sample Opwire command line in Python
+# opwire-agent: sample command line in Python
 
 ## Install
 
@@ -14,7 +14,7 @@ Change the current working directory to the project folder:
 cd sample-cmdline-python
 ```
 
-Download latest `opwire-agent` to this folder:
+Download & save latest `opwire-agent` to this folder:
 
 ![project-home-dir](https://raw.github.com/opwire/sample-cmdline-python/master/docs/assets/images/ls.png)
 
@@ -35,3 +35,9 @@ curl "http://localhost:8888/run?type=microservice&type=python"
 or open with a web browser:
 
 ![example-output](https://raw.github.com/opwire/sample-cmdline-python/master/docs/assets/images/example.png)
+
+## License
+
+MIT
+
+See [LICENSE](LICENSE) to see the full text.
