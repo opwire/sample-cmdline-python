@@ -16,6 +16,7 @@ def load_env(store):
         store[envName] = json.loads(envData)
       except:
         store[envName] = envData
+        pass
       pass
     pass
   pass
@@ -24,6 +25,7 @@ def load_input(store):
   _input = ''
   for line in sys.stdin:
     _input += line
+    pass
   _inputJSON = dict()
   try:
     if isinstance(_input, str):
