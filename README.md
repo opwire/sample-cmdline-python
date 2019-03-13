@@ -18,7 +18,7 @@ Download & save latest `opwire-agent` to this folder:
 
 ![project-home-dir](https://raw.github.com/opwire/sample-cmdline-python/master/docs/assets/images/ls.png)
 
-## Run
+## Test the service using a web browser
 
 Execute the following command:
 
@@ -26,13 +26,7 @@ Execute the following command:
 ./opwire-agent -p=8888 --default-command="python example.py"
 ```
 
-Make the simple REST request:
-
-```curl
-curl "http://localhost:8888/run?type=microservice&type=python"
-```
-
-or open with a web browser:
+Open the URL `http://localhost:8888/run?type=microservice&type=python`:
 
 ![example-output](https://raw.github.com/opwire/sample-cmdline-python/master/docs/assets/images/example.png)
 
