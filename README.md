@@ -14,7 +14,7 @@ Change the current working directory to the project folder:
 cd sample-cmdline-python
 ```
 
-Download & save latest `opwire-agent` to this folder:
+Download and extract the latest [`opwire-agent`](https://github.com/opwire/opwire-agent/releases/latest) program into this directory:
 
 ![project-home-dir](https://raw.github.com/opwire/sample-cmdline-python/master/docs/assets/images/ls.png)
 
