@@ -30,6 +30,14 @@ Open the URL `http://localhost:8888/run?type=microservice&type=python`:
 
 ![example-output](https://raw.github.com/opwire/sample-cmdline-python/master/docs/assets/images/example.png)
 
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b your-new-feature`)
+3. Commit your changes (`git commit -am "Add some feature"`)
+4. Push to the branch (`git push origin your-new-feature`)
+5. Create new Pull Request
+
 ## License
 
 MIT
