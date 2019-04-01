@@ -28,7 +28,7 @@ if __name__ == '__main__':
   except Exception as err:
     errmap = {
       "name": type(err).__name__,
-      "message": err.message
+      "message": getattr(err, 'message', str(err))
     }
     if args["output-format"] == "json":
       error = json.dumps(errmap, indent=2)

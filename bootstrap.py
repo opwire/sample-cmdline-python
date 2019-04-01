@@ -30,7 +30,7 @@ def load_input(store):
     store["input"] = _input
     try:
       store["input"] = json.loads(_input)
-    except Exception, err:
+    except Exception as err:
       raise err
     pass #if
   return store
