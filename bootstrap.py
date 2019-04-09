@@ -9,7 +9,7 @@ def load(args):
   return _store
 
 def load_env(store):
-  for envName in ["OPWIRE_EDITION", "OPWIRE_REQUEST", "OPWIRE_SETTING"]:
+  for envName in ["OPWIRE_EDITION", "OPWIRE_REQUEST", "OPWIRE_SETTINGS"]:
     envData = os.environ.get(envName)
     if type(envData) == str:
       try:
